@@ -11,3 +11,8 @@ function srcdest(src, dest) {
 }
 
 srcdest(src, dest);
+
+// console.log(255 / 10);
+// console.log(25.5 % 10);
+// console.log(5.5 / 10);
+// console.log(0.255 % 10);
