@@ -1,0 +1,144 @@
+00:00:00 - Introduction
+00:01:46 - Q1. What is the role of React in software development?
+user=>ui/client/frontend(consist of static data only)=>api(receive get,post)=>Database server
+
+
+this is the two way process
+
+see imageq1
+00:04:22 - Q2. What is React?
+React is an open source Javascript Library.
+React is used for building user Interfaces.
+React simplifies the creation of Single Page Application using reusable components.
+wepage me bhut sare components hote hai jab hm youtube me jaaye jo page h wo reload nhi hoga but components reload honge according to calling of that component
+
+00:04:50 - Q3. What is SPA(Single Page Application)?
+wwhole page is not refereshed the components inside the page is changed only.
+whenever user do some action on the website then in response content is dynamically updated without refreshing or loading a new page.
+
+
+
+
+00:06:30 - Q4. What are the advantages of React?
+a. simple to build single page application(by using components) it is effficent and fasteer
+b. react is cross platform and open source
+c. react is light weight and fast (concept of virtual dom)
+d. react is supported by large community 
+e. react is the most popular and have maximum noer of jobs in the market
+f. testing is very easy (easily debugged)
+
+00:08:23  - Q5. What are disadvantages of React?
+ many small small reusable components it is good to use react
+but  if you have simple website that is simple static page then simple js is good
+
+
+00:09:55 - Q6. What is the difference between React and Angular?
+
+react and angular both use single page application
+react is a javascript Library
+ANGULAR is a framework
+react uses virtual dom (faster) anguler uses real dom
+react is light weigth than angular
+react is simple to learn
+react depends up on external libraries and  form many complex features so developer has to write many lines of code for complex problems 
+
+
+00:12:47 - Q7. What is DOM?
+Dom represent the web page as a tree-like-structure which allows javascript to dynamically access and manipulate the content and structure of a webpage
+
+document object node
+
+dom tree
+enable the user to update and add extra features etc extra node will be added
+
+it makes your website dynamic with the help of javascript
+defination=>
+ dom represent the web page as a tree-like structure which allows javascript to dynamically access and manipulate the content and structure of a wweb page
+
+
+
+00:15:03 - Q8. What is the difference between DOM and Virtual DOM?
+virtual dom is faster because only that component will renderd without rendering the whole layout of the page 
+
+virtual dom will be more than one
+
+00:18:54 - Q9. What are React Components?
+in react a component is a reusable building block to make the entire web page
+
+00:19:44 - Q10. How to setup react project?
+install node.js(npm milta hai)
+code editor(vscode)
+
+
+npx create-react-app myapp
+cd myapp
+npm start
+
+
+00:22:45 - Q11. What is npm? What is the role of node_modules folder? 
+nodepackagemodules(npm) is used to manage the dependencies for your react project including the react library itself.
+
+
+npm install all the library for example babel,etc
+we should not touch these 
+
+nodemodules contains all the library 
+
+
+00:23:59 - Q12. What is the role of public folder in React?
+all the static content of the website that is index.html
+
+
+
+00:24:44 - Q13. What is the role of src folder in React?
+in react src used for dynamic changes done by developers
+
+
+00:25:23 - Q14. What is the role of index.html page in React?
+index.html is the single page which we talking about
+entry point of our react application
+
+
+
+
+00:26:35 - Q15. What is  the role of App.js file in React?
+it is the root level component and is responsible for rendering the other components
+
+00:27:47 - Q16. What is the role of function and return inside App.js?
+=>
+
+
+
+00:28:20 - Q17. Can we have a function without return inside App.js?yes
+00:29:01 - Q18. What is the role of export default inside App.js?
+
+used to make this component available for importing in other components or files
+
+00:30:25 - Q19. What is the role of index.js file, ReactDOM and render method in React?
+index.js ==> integrate app and index.html
+is the javascript file which renders all the components and replace the root element of index.html file with the newly rendered root element.
+
+react.scriptmode is just a debugger
+
+00:33:48 - Q20. How React App load and display the components in browser?
+user==>index.html==>index.js==>rendered components in app.js  you can search it on web
+
+00:35:26 - Chapter 3 
+00:36:08 - Q21. What is JSX?
+error checking in advance
+easy to write (babel converts this code to js)
+javascript friendly
+improved performance 
+
+00:36:59 - Q22. What are the advantages of JSX?
+00:39:17- Q.23 Can browser read a JSX File? What is Babel?
+no.
+babel is a transpiler it converts  JSX code to javascript.
+00:40:25 - Q24. What is Transpiler?
+00:41:03 - Q25. Is it possible to use JSX without React?
+it is possible but you have to create a transpiler like babel
+00:41:37 - Q26. What is fragment in React?<></> it do not take space like div (block element)
+00:43:21 - Q27. How do you iterate over a list in JSX? What  is the use of map method?
+00:45:40 - Q28. What are props n JSX?
+00:46:28 - Q29. What are spread operator?
+00:47:48 - Q30. What are the types conditional rendering in JSX?

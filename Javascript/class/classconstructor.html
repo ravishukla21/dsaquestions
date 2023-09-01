@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    class with constructor
+  </body>
+  <script>
+    //class
+    // class RailwayForm {
+    //   constructor() {}
+    //   submit() {
+    //     alert(this.name + "form submitted");
+    //   }
+
+    //   cancel() {
+    //     alert(this.name + "this form is cancelled");
+    //   }
+
+    //   fill(givenname) {
+    //     this.name = givenname;
+    //   }
+    // }
+    //create a form for harry
+    // let harry = new RailwayForm();
+    // //fill the form for harry details
+    // harry.fill("harry");
+
+    // let rohan = new RailwayForm();
+    // rohan.fill("rohan");
+    // console.log(harry, "harry");
+
+    // harry.submit();
+    // rohan.submit();
+  </script>
+
+  <script>
+    //class with constructor
+    class Railwayformabc {
+      constructor(name, trainno) {
+        console.log("constructor called");
+        this.name = name;
+        this.trainno = trainno;
+      }
+
+      submit() {
+        alert(this.name + " " + "form is submitted");
+      }
+
+      //fill(name) {}
+    }
+
+    let harry = new Railwayformabc("harry", 1234);
+    // harry.fill("harry");
+    console.log(harry, "harry");
+    harry.submit();
+  </script>
+</html>

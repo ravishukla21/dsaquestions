@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login and Signup Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <div class="button-box">
+          <div id="btn"></div>
+          <button type="button" class="toggle-btn" onclick="login()">
+            LogIn
+          </button>
+          <button type="button" class="toggle-btn" onclick="register()">
+            Register
+          </button>
+        </div>
+        <div class="social-media">
+          <img src="download.jpeg" />
+          <img src="fb.jpeg" />
+          <img src="gmail.png" />
+        </div>
+
+        <div id="login" class="form_main_login">
+          <form class="login-form">
+            <div>
+              <label for="username">Enter &nbsp;Email&nbsp;&nbsp; </label>
+              <input
+                type="text"
+                class="username"
+                placeholder="Enter Email"
+                required
+              />
+            </div>
+            <div>
+              <label for="userpassword">Enter Password</label>
+              <input
+                type="password"
+                class="userpassword"
+                placeholder="Enter Password"
+                required
+              />
+            </div>
+            <div>
+              <span
+                ><input type="checkbox" class="checkbox" /> Remember
+                Password</span
+              >
+            </div>
+            <div>
+              <button type="submit" class="submit">Login</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="form_main_register" id="register">
+          <form class="login-form">
+            <div>
+              <label for="username">Enter &nbsp;Name &nbsp;&nbsp; </label>
+              <input
+                type="text"
+                class="username"
+                placeholder="Enter Name"
+                required
+              />
+            </div>
+            <div>
+              <label for="username">Enter &nbsp;Email &nbsp;&nbsp; </label>
+              <input
+                type="email"
+                class="username"
+                placeholder="Enter Email"
+                required
+              />
+            </div>
+            <div>
+              <label for="userpassword">Enter Password</label>
+              <input
+                type="password"
+                class="userpassword"
+                placeholder="Enter Password"
+                required
+              />
+            </div>
+            <div>
+              <span
+                ><input type="checkbox" class="checkbox" /> I accept to the
+                terms and conditions</span
+              >
+            </div>
+            <div>
+              <button type="submit" class="submit">Register</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let x = document.getElementById("login");
+      let y = document.getElementById("register");
+      let z = document.getElementById("btn");
+
+      function register() {
+        x.style.display = "none";
+        y.style.display = "block";
+        z.style.left = "110px";
+      }
+
+      function login() {
+        x.style.display = "block";
+        y.style.display = "none";
+        z.style.left = "0px";
+      }
+    </script>
+  </body>
+</html>

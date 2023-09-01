@@ -1,0 +1,12 @@
+what are hooks?
+hooks made functional hooks stateful
+lifecylce management
+
+functional vs class components?
+render() in class components.
+
+generic function?
+
+
+
+
