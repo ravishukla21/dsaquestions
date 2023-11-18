@@ -1,0 +1,49 @@
+.login_form {
+  /* border: 4px solid; */
+  text-align: center;
+
+  width: auto;
+  background-color: rgb(244, 243, 239);
+}
+@media screen and (max-width: 600px) {
+  .login_form {
+    width: auto;
+    background-color: rgb(244, 243, 239);
+    /* border: 5px solid greenyellow; */
+  }
+  .login_form div {
+    text-align: start;
+    /* border: 2px solid rgb(4, 0, 255); */
+    width: 30vh;
+    height: auto;
+    margin: auto;
+  }
+}
+.login_form div {
+  text-align: start;
+  /* border: 2px solid red; */
+  width: 30vh;
+  margin: auto;
+}
+.login_form input {
+  background: none;
+  margin-left: 20px;
+  padding: 10px 15px;
+  box-shadow: 0 0 20px 0 #777;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  outline: none;
+}
+.login_form button {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0px solid;
+  outline: none;
+  position: relative;
+  background: linear-gradient(to right, #9afbfa, #d071f9);
+  border-radius: 30px;
+  margin-left: 30%;
+}

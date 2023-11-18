@@ -1,0 +1,9 @@
+const upperize = obj =>
+  Object.keys(obj).reduce((acc, k) => {
+    acc[k.toUpperCase()] = obj[k];
+    return acc;
+  }, {});
+
+
+
+upperize({ Name: 'John', Age: 22 }); // { NAME: 'John', AGE: 22 }

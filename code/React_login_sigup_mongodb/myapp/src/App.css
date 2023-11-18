@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.app {
+  background-color: aqua;
+  height: 100vh;
+  border: 2px solid green;
+}
+
+@media screen and (max-width: 600px) {
+  .app {
+    background-color: rgb(73, 209, 224);
+    height: 100vh;
+    border: 1px solid rgb(14, 6, 6);
+    overflow: hidden;
+  }
+}
+
+/* .container {
+  border: 1px solid red;
+
+  margin: auto;
+  margin-top: 10vh;
+
+  width: 600px;
+
+  background-color: rgb(238, 238, 244);
+  height: 400px;
+  padding: 20px 5px;
+}
+.login_main {
+  /* border: 2px solid red; */
+/* } */
+/* .top_button { */
+/* border: 2px solid rgb(31, 168, 49); */
+
+/* background: white;
+  margin: auto; */
+/* border: 1px solid red; */
+/* background: linear-gradient(to right, #9afbfa, #d071f9); */
+/* 
+  padding: 10px 0px;
+} */
+
+/* #btn {
+  border: 4px solid green;
+  width: auto;
+  top: 0;
+  left: 0;
+  position: absolute;
+
+  border-radius: 30px;
+  transition: 1s;
+} */
+
+/* .button-box {
+  border: 0px solid green;
+  width: 200px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 0px;
+  border: "none";
+  border-radius: 20px;
+} */
+/* .toggle-btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+} */
+/* .active:focus {
+  width: auto;
+  height: 100%;
+  background: linear-gradient(to right, #9afbfa, #d071f9);
+  border-radius: 20px;
+}  */

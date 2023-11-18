@@ -14,6 +14,8 @@ console.log(abc123, "abc");
 let abc = obj1.method1.bind(obj2);
 console.log(abc(), "abc");
 
+/////
+
 let userDetails = {
   name: "Ajay Suneja",
   Age: 28,
