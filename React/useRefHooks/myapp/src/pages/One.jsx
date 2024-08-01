@@ -37,8 +37,8 @@ const One = () => {
         generatePassword()
     }, [length, numberAllowed, charAllowed])
     return (
-        <div>
-            <h1>Password generator</h1>
+        <div className='bg-gray-200'>
+            <h1 className='bg-red-400'>Password generator</h1>
             <div className='flex items-center' >
                 <div>
 
@@ -96,9 +96,6 @@ const One = () => {
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     )
 }
