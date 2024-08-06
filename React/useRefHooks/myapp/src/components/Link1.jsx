@@ -36,6 +36,78 @@ export const Link1 = () => {
                         One
                     </NavLink>
                 </div>
+                <div style={{ margin: "10px" }}>
+                    <NavLink
+                        to="/two"
+                        style={({ isActive }) => ({
+                            color: isActive
+                                ? "greenyellow"
+                                : "white",
+                        })}
+                    >
+                        usestate
+                    </NavLink>
+                </div>
+                <div style={{ margin: "10px" }}>
+                    <NavLink
+                        to="/three"
+                        style={({ isActive }) => ({
+                            color: isActive
+                                ? "greenyellow"
+                                : "white",
+                        })}
+                    >
+                        useEffect
+                    </NavLink>
+                </div>
+                <div style={{ margin: "10px" }}>
+                    <NavLink
+                        to="/four"
+                        style={({ isActive }) => ({
+                            color: isActive
+                                ? "greenyellow"
+                                : "white",
+                        })}
+                    >
+                        useRef
+                    </NavLink>
+                </div>
+                <div style={{ margin: "10px" }}>
+                    <NavLink
+                        to="/five"
+                        style={({ isActive }) => ({
+                            color: isActive
+                                ? "greenyellow"
+                                : "white",
+                        })}
+                    >
+                        useMemo
+                    </NavLink>
+                </div>
+                <div style={{ margin: "10px" }}>
+                    <NavLink
+                        to="/six"
+                        style={({ isActive }) => ({
+                            color: isActive
+                                ? "greenyellow"
+                                : "white",
+                        })}
+                    >
+                        useCallback
+                    </NavLink>
+                </div>
+                <div style={{ margin: "10px" }}>
+                    <NavLink
+                        to="/seven"
+                        style={({ isActive }) => ({
+                            color: isActive
+                                ? "greenyellow"
+                                : "white",
+                        })}
+                    >
+                        useContext
+                    </NavLink>
+                </div>
             </div>
 
 
