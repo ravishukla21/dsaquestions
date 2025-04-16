@@ -5,8 +5,10 @@ const HomePage = () => {
   const location = useLocation();
   return (
     <div>
-      HomePage
+      HomePage hello g
       {location.state ? <h1>Hello {location.state.id} welcome </h1> : ""}
+
+      
     </div>
   );
 };
